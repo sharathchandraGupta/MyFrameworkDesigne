@@ -86,6 +86,14 @@ public class TestBase {
 			}
 			
 			
+			/*try {
+				OR.load(fis);
+				log.debug("OR file loaded !!!");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}*/
+			
 			
 			if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty()){
 				
